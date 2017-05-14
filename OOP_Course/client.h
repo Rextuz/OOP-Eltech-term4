@@ -17,7 +17,7 @@ public:
 	~Client();
 	void goOnline(Server* server);
 	void goOffline(Server* server);
-	void registerOnServer(Server* server, string username);
+	bool registerOnServer(Server* server, string username);
 	void leaveServer(Server* server);
 	void sendMessage(Server* server, string to, string message);
 	void sendAll(Server* server, string message);

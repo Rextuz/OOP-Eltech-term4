@@ -1,49 +1,61 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Circle" Collapsed="true">
-    <Position X="7.5" Y="2" Width="1.5" />
+  <Class Name="Circle">
+    <Position X="9.75" Y="2" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAgAAAKAAAIAAAAAAAgAAAAAAABhAAAAAAA=</HashCode>
       <FileName>circle.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="CircleClient" Collapsed="true">
-    <Position X="7.5" Y="4.5" Width="1.5" />
+  <Class Name="CircleClient">
+    <Position X="9.75" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAACAAACAAAAAAAAABAAAIAAAAAAAAAAA=</HashCode>
       <FileName>CircleClient.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Client" Collapsed="true">
-    <Position X="5.5" Y="2.75" Width="1.5" />
+  <Class Name="Client">
+    <Position X="5.5" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AABAAAAAAAAIAAAAAAIAAAAgABAIAAAIAACgAAABAgQ=</HashCode>
       <FileName>client.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Pentagon" Collapsed="true">
-    <Position X="3.5" Y="2" Width="1.5" />
+  <Class Name="Pentagon">
+    <Position X="2.75" Y="2" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAKAAAIAAgAAAAAAAAAAAABgAAAAAAE=</HashCode>
       <FileName>pentagon.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="PentagonClient" Collapsed="true">
-    <Position X="3.5" Y="4.5" Width="1.5" />
+  <Class Name="PentagonClient">
+    <Position X="2.75" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAQAACAAAAAAAAAAAAAAAAAIAAAAAAAAAQA=</HashCode>
       <FileName>PentagonClient.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Server" Collapsed="true">
-    <Position X="2.75" Y="0.5" Width="1.5" />
+  <Class Name="Server">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="Server::User" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>server.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="Server::Message" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>server.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
     <TypeIdentifier>
       <HashCode>AABAACAAAAAJAAAWAAABQgAgAAAAAAAAIAAAAxAAAgQ=</HashCode>
       <FileName>server.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Shape" Collapsed="true">
-    <Position X="5.5" Y="0.75" Width="1.5" />
+  <Class Name="Shape">
+    <Position X="5.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AABEAAAAAAAAAAKAAAIAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
       <FileName>shape.h</FileName>

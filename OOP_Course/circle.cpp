@@ -30,3 +30,11 @@ void Circle::draw()
 	cout << "Drawn the circle with coordinates (" << this->x << ", " << this->y <<
 		") and radius " << this->r << endl;
 }
+
+double * Circle::getXY()
+{
+	double * res = new double[2];
+	res[0] = x;
+	res[1] = y;
+	return res;
+}

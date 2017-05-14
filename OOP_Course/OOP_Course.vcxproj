@@ -160,6 +160,7 @@
     <ClInclude Include="pentagon.h" />
     <ClInclude Include="PentagonClient.h" />
     <ClInclude Include="server.h" />
+    <ClInclude Include="tests.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />

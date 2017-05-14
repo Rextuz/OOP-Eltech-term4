@@ -12,4 +12,5 @@ public:
 	void turn(double angle);
 	void move(double new_x, double new_y);
 	void draw();
+	double * getXY();
 };

@@ -8,6 +8,9 @@ using std::string;
 #include "server.h"
 #include "CircleClient.h"
 #include "PentagonClient.h"
+
+#include "tests.h"
+
 void displayComment(string comment)
 {
 	HANDLE handle = GetStdHandle(STD_OUTPUT_HANDLE);
@@ -57,10 +60,23 @@ void run()
 	cc.sendAll(s, "draw");
 	displayComment("exit from the testing function. Destructors");
 }
+
+void test() {
+	create_server();
+	move_circle();
+	create_pentagon();
+	create_client();
+	create_pentagon_client();
+	register_client();
+	register_client_twice();
+	send_messages();
+}
+
 int main()
 {
 	setlocale(LC_ALL, "");
-	run();
+	test();
+	// run();
 	_getch();
 	return 0;
 }

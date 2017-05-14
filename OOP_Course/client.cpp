@@ -44,14 +44,18 @@ void Client::goOffline(Server* server)
 {
 	server->setOffline(this);
 }
-void Client::registerOnServer(Server* server, string username)
+
+bool Client::registerOnServer(Server* server, string username)
 {
-	if (!server->registerUser(this, username))
+	bool res = server->registerUser(this, username);
+	if (!res)
 	{
 		cout << "\tClient " << this->id << " console:" << endl;
 		cout << "Name \"" << username << "\" already occupied" << endl;
 	}
+	return res;
 }
+
 void Client::leaveServer(Server* server)
 {
 	this->goOnline(server);
